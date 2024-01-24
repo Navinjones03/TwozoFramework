@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/snjon/IdeaProjects/FrameWork/.gitignore">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/snjon/IdeaProjects/FrameWork/src/test/java/org/example/LogIn.java">
+        <classes>
+            <class name="org.TwozoTest.LogIn">
+                <methods>
+                    <include name="setEmail"/>
+                    <include name="setPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/snjon/IdeaProjects/FrameWork/src/test/java/org/example/SignUp.java">
+        <classes>
+            <class name="org.TwozoTest.SignUp">
+                <methods>
+                    <include name="enterWorkMail"/>
+                    <include name="putDetails"/>
+                    <include name="putCompanyName"/>
+                    <include name="selectJobRole"/>
+                    <include name="signUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
