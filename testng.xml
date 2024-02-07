@@ -7,7 +7,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/snjon/IdeaProjects/FrameWork/src/test/java/org/example/LogIn.java">
         <classes>
-            <class name="org.TwozoTest.LogIn">
+            <class name="org.twozotest.LogIn">
                 <methods>
                     <include name="setEmail"/>
                     <include name="setPassword"/>
@@ -18,7 +18,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/snjon/IdeaProjects/FrameWork/src/test/java/org/example/SignUp.java">
         <classes>
-            <class name="org.TwozoTest.SignUp">
+            <class name="org.twozotest.SignUp">
                 <methods>
                     <include name="enterWorkMail"/>
                     <include name="putDetails"/>

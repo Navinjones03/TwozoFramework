@@ -5,23 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6506bdb-171c-47c5-84ba-e29d694d9f6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/Driver/Impl/AutomationDriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/Driver/Service/AutomationDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebBrowser/Impl/WebBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebBrowser/Service/BrowserApI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebElement/Service/PageElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebElement/impl/WebCoreElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebLocators/Service/LocatorsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebLocators/impl/LocatorsImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/TwozoBase/enums/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pages/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TwozoTest/LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/TwozoTest/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/alerts/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/alerts/AlertsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/browser/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/browser/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/impl/AutomationDriverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/impl/DriverFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/service/AutomationDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/driver/service/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/finders/impl/WebDriverFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/finders/impl/WebElementFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/finders/service/ElementFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/locator/ElementLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/locator/impl/TargetLocatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/locator/service/TargetLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/pages/impl/PageInformationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/pages/impl/PageNavigatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/pages/service/PageInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/pages/service/PageNavigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/tabs/impl/TabControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/tabs/impl/TabHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/tabs/service/TabHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/tabs/service/TabInfoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/utilities/PropertyFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/pages/home/Homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/pages/signIn/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twozo/pages/signUp/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/twozotest/Base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/twozotest/signInTest/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/twozotest/signUpTest/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/Driver/Impl/AutomationDriverImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/Driver/Service/AutomationDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebBrowser/Impl/WebBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebBrowser/Service/BrowserApI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebElement/Service/PageElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/webElement/service/PageElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebElement/impl/WebCoreElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/webElement/impl/PageElementImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebLocators/Service/LocatorsApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/WebLocators/impl/LocatorsImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/enums/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TwozoBase/enums/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/twozo/components/element/locator/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pages/SignInPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/TwozoTest/LogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/TwozoTest/SignUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/TwozoTest/Twozo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.HTML"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\snjon\IdeaProjects\FrameWork\src\main\resources" />
+      <recent name="C:\Users\snjon\IdeaProjects\FrameWork\src\main\java\twozobase\twozoBase\driver" />
       <recent name="C:\Users\snjon\IdeaProjects\FrameWork\src\test\java\org\example" />
       <recent name="C:\Users\snjon\IdeaProjects\FrameWork\src\test\java" />
       <recent name="C:\Users\snjon\IdeaProjects\FrameWork\src\test" />
@@ -67,7 +102,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogIn">
+  <component name="RunManager" selected="TestNG.SignUp (1)">
     <configuration name="LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork" />
       <extension name="coverage">
@@ -77,7 +112,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.TwozoTest.LogIn" />
+      <option name="MAIN_CLASS_NAME" value="org.twozotest.LogIn" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -85,17 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn.launchBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignIn.signInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.TwozoTest.*" />
+          <option name="PATTERN" value="org.twozo.twozotest.signInTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.TwozoTest" />
-      <option name="MAIN_CLASS_NAME" value="org.TwozoTest.LogIn" />
-      <option name="METHOD_NAME" value="launchBrowser" />
+      <option name="PACKAGE_NAME" value="org.twozo.twozotest.signInTest" />
+      <option name="MAIN_CLASS_NAME" value="org.twozo.twozotest.signInTest.SignIn" />
+      <option name="METHOD_NAME" value="signInTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,16 +138,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twozo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUp (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.TwozoTest.*" />
+          <option name="PATTERN" value="org.twozotest.signUpTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.TwozoTest.Twozo" />
+      <option name="PACKAGE_NAME" value="org.twozotest.signUpTest" />
+      <option name="MAIN_CLASS_NAME" value="org.twozotest.signUpTest.SignUp" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,44 +155,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twozo.launch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.TwozoTest.*" />
+          <option name="PATTERN" value="org.twozo.twozotest.signUpTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.TwozoTest.Twozo" />
-      <option name="METHOD_NAME" value="launch" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.twozo.twozotest.signUpTest" />
+      <option name="MAIN_CLASS_NAME" value="org.twozo.twozotest.signUpTest.SignUp" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.LogIn and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUp.clickSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork" />
-      <option name="TEST_OBJECT" value="PATTERN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.twozotest.signUpTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.twozotest.signUpTest" />
+      <option name="MAIN_CLASS_NAME" value="org.twozotest.signUpTest.SignUp" />
+      <option name="METHOD_NAME" value="clickSignUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
-      <patterns>
-        <pattern testClass="org.example.LogIn" />
-        <pattern testClass="org.example.SignUp" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignUp (1)" />
         <item itemvalue="TestNG.LogIn" />
-        <item itemvalue="TestNG.LogIn.launchBrowser" />
-        <item itemvalue="TestNG.Twozo" />
-        <item itemvalue="TestNG.Twozo.launch" />
-        <item itemvalue="TestNG.org.example.LogIn and 1 more" />
+        <item itemvalue="TestNG.SignUp.clickSignUp" />
+        <item itemvalue="TestNG.SignUp" />
+        <item itemvalue="TestNG.SignIn.signInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,9 +214,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/TwozoTest/SignUp.java</url>
-          <line>2</line>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/twozo/components/driver/browser/BrowserFactory.java</url>
+          <line>70</line>
+          <properties class="org.twozo.components.driver.browser.BrowserDecider">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
