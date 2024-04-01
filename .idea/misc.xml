@@ -6,6 +6,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Components/twozoComponents/alerts/pom.xml" />
+        <option value="$PROJECT_DIR$/Components/twozoComponents/driver/pom.xml" />
+        <option value="$PROJECT_DIR$/Components/twozoComponents/element/pom.xml" />
+        <option value="$PROJECT_DIR$/Components/twozoComponents/page_component/pom.xml" />
+        <option value="$PROJECT_DIR$/Components/twozoComponents/pom.xml" />
+        <option value="$PROJECT_DIR$/Components/util/pom.xml" />
+        <option value="$PROJECT_DIR$/report/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="corretto-18 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

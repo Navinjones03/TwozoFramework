@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/WebAutomationDriver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebAutomationDriver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/alerts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/alerts/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/driver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/driver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/element/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/element/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/page_component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/page_component/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/tabs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/twozoComponents/tabs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/report/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utilities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utilities/src/main/resources" charset="UTF-8" />
   </component>
 </project>
